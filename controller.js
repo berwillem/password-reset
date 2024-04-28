@@ -1,3 +1,4 @@
+const User = require("../model/user");
 exports.forgotPasswordUser = async (req, res) => {
   const { email } = req.body;
   if (!email) {
